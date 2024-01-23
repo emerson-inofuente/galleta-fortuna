@@ -1,4 +1,4 @@
-
+import ButtonPhrase from "../components/ButtonPhrase";
 
 const randomIndex = (array) => {
   const index = Math.floor(Math.random() * array.length);
