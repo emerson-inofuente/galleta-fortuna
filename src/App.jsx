@@ -9,7 +9,7 @@ import bgArray from "./utils/bgArray.json";
 
 
 function App() {
- 
+
   const sentence = randomIndex(phrases);
   const bgIndex= randomIndex(bgArray);
 
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className='app' style={bgStyle}>
-      <div class="container">
+      <div className="container">
         <h1>Galletas de la fortuna</h1>
         <ButtonPhrase
           setQuote={setQuote}
